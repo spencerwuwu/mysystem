@@ -9,6 +9,7 @@
  filetype indent on
  set autoread
  set autochdir
+ set noswapfile
 
  """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  " => VIM user interface
