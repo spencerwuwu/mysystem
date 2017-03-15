@@ -43,9 +43,11 @@
  set cindent
  set autoindent
  set smartindent
- set tabstop=8 shiftwidth=8
+ set tabstop=4 shiftwidth=4
  autocmd FileType vim     set expandtab
  autocmd FileType haskell set tabstop=4 shiftwidth=4 expandtab
+ autocmd FileType c       set tabstop=4 shiftwidth=4 expandtab
+ autocmd FileType cpp     set tabstop=4 shiftwidth=4 expandtab
  autocmd FileType html    set tabstop=2 shiftwidth=2 expandtab
  autocmd FileType xml     set tabstop=2 shiftwidth=2 expandtab
  autocmd FileType xhtml   set tabstop=2 shiftwidth=2 expandtab

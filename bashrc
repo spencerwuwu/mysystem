@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 
-PS1='\[\e[2m\][\D{%F %a %I:%M %P}]\[\e[22m\] \[\e[32m\]\u\[\e[0m\] @ \[\e[36m\]\h\[\e[0m\] : \w\n\$ '
+export PS1="\[\e[2m\][\D{%F %a %I:%M %P}]\[\e[22m\] \[\033[38;5;12m\]\[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\] \[\033[38;5;12m\]@\[$(tput sgr0)\]\[\033[38;5;7m\]\h\[$(tput sgr0)\]\[\033[38;5;12m\]\[$(tput sgr0)\]\[\033[38;5;15m\]: \[$(tput sgr0)\]\[\033[38;5;7m\]\w\[$(tput sgr0)\]\[\033[38;5;12m\]>\[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
