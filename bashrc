@@ -58,3 +58,4 @@ alias gdb='gdb -q'
 alias pacman='pacman --color always'
 #alias irssi='irssi -c chat.freenode.net -n <nick> -w <key>'
 
+neofetch
