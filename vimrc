@@ -21,13 +21,14 @@ Plugin 'ap/vim-css-color'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-surround'
 " Syntax
-Plugin 'scrooloose/syntastic'
+# Plugin 'scrooloose/syntastic'
 Plugin 'urso/haskell_syntax.vim'
 Plugin 'xhtml.vim'
 Plugin 'gabrielelana/vim-markdown'
 Plugin 'python.vim'
 " Indent
 Plugin 'indentpython.vim'
+Plugin 'Yggdroot/indentLine'
 
 Plugin 'slim-template/vim-slim.git'
 
