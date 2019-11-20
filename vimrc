@@ -92,7 +92,7 @@ set nostartofline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 set background=dark
-colorscheme desert
+colorscheme koehler
 set encoding=utf8
 set fileencodings=utf8,utf16,big5,gbk,latin1
 set ffs=unix,dos,mac
